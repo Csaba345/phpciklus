@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside ul {
+    list-style-type: disc;
+    font-size: 18px;
+}
+
+nav {
+    grid-column: 1 / -1; /* teljes szélesség */
+    margin-top: 20px;
+}

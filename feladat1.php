@@ -2,8 +2,7 @@
     $elsoSzint = "Ökoszisztéma";
     $masodikSzint = "Társadalom";
     $harmadikSzint = "Gazdaság";
-    $negyedikSzint = "Pénz";
-
+    $negyedikSzint= "Pénz";
     echo "<ul>";
     echo "<li>$elsoSzint</li>";
     echo "<li>$masodikSzint</li>";
